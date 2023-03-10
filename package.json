@@ -1,0 +1,24 @@
+{
+  "name": "idexx_dev_pi_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1323.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-dht-sensor": "^0.4.3",
+    "node-libcamera": "^1.0.6"
+  }
+}
