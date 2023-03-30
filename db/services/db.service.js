@@ -21,7 +21,7 @@ const putDynamo = async (data) => {
 
     await documentClient.put(params).promise();
   } catch (err) {
-    console.log(`db.service.js err`);
+    console.log(`db.service.js err`, err);
   }
 };
 

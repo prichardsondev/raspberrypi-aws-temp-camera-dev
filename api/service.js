@@ -18,7 +18,7 @@ const service = {
     getImage: async () => {
 
         try {
-            const timestamp = new Date().toISOString();
+            const timestamp = Date.now();
             let output = `${__dirname}/public/images/${timestamp}.jpg`;
 
             const config = {
